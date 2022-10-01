@@ -13,6 +13,7 @@ import {
 export default function SimpleSlider() {
     var settings = {
       dots: true,
+
       infinite: true,
       speed: 500,
       slidesToShow: 3,
@@ -23,6 +24,7 @@ export default function SimpleSlider() {
     return (
     
       <Slider {...settings}>
+        
           <Box
             _hover={{ transform: "scale(1.01)" }}
             boxShadow="rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px"
